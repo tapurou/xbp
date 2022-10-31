@@ -152,7 +152,6 @@ elif name == 2:
 else: 
     print(name,"惜しい!!なんで間違えたか明日までに考えといてください!正解は1の31.4159です!")
     ng = ng + 1
-
 if name == 2:
       print("|")
       print("|")
@@ -163,5 +162,4 @@ elif name :
       print("|")
       print("↓")
       print('F')
-
 print("終了！ーーーーーー　あなたの正解数は", ok, "正答率は、",ok/(ok+ng)*100, "%です")
