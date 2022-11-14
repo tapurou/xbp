@@ -1,5 +1,4 @@
-
-<p<code>
+<code>
 <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
 <li style="background-color:#EFF;">from unicodedata import name</li>
 <li style="background-color:#EEF;">ok = 0</li>
