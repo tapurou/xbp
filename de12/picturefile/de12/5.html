@@ -1,0 +1,58 @@
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>たぷろう 課題</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1>外部ライブラリ</h1>
+
+  <div>
+    <h2>やりたかったこと</h2><br><br>
+    
+  私の班では、株についてのサイトを数字に貼り付けてその数字が選択した株のサイトに移ることができる仕組みを考えた。<br>
+  数字とつなげるサイトを見つけることまでは良かったが様々なサイトを調べてみても見つけられなかった。<br>
+  前回の課題の選択クイズで利用した数字と問題をつなげることを応用してサイトのリンクと数字を繋げることができるのではないかと試したがサイトを貼り付けるための<br>
+  import webbrowser<br>
+  webbrowser.open('サイトのリンク')というcodeを上手く繋げることができなかったために完成させることができなかった。<br>
+  <br>
+  <br>
+<h3>未完成のcode</h3>
+<code>
+  <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
+  <li style="background-color:#EFF;">from symbol import namedexpr_test</li>
+  <li style="background-color:#EEF;"></li>
+  <li style="background-color:#EFF;">name = int(input(<font style="color:brown;">'閲覧する株価の種類の数字を選んでください。1,金融機関 2,マスメディア 3,通信サービス　4,システム・ソフトウェア 5,小売り'</font>))</li>
+  <li style="background-color:#EEF;">a = [<font style="color:brown;">"stock.py"</font>, <font style="color:brown;">"systemsoftware.py"</font>, <font style="color:brown;">"retail.py"</font>, <font style="color:brown;">"finamce.py"</font>, <font style="color:brown;">"massmedia.py"</font>]</li>
+  <li style="background-color:#EFF;">if name == 1:</li>
+  <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;</li>
+  <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(a[0])</li>
+  <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print(a[1])</li>
+  <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(a[2])</li>
+  <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print(a[3])</li>
+  <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(a[4])</li>
+  <li style="background-color:#EEF;"></li>
+  <li style="background-color:#EFF;">import webbrowser</li>
+  <li style="background-color:#EEF;">webbrowser.open(<font style="color:brown;">'https://www.nikkei.com/nkd/industry/stocklist/?n_m_code=121'</font>)  #金融機関</li>
+  <li style="background-color:#EFF;"></li>
+  <li style="background-color:#EEF;">import webbrowser</li>
+  <li style="background-color:#EFF;">webbrowser.open(<font style="color:brown;">'https://www.nikkei.com/nkd/industry/stocklist/?n_m_code=141'</font>)  #マスメディア</li>
+  <li style="background-color:#EEF;"></li>
+  <li style="background-color:#EFF;">import webbrowser</li>
+  <li style="background-color:#EEF;">webbrowser.open(<font style="color:brown;">'https://www.nikkei.com/nkd/industry/stocklist/?n_m_code=101'</font>)  #小売り</li>
+  <li style="background-color:#EFF;"></li>
+  <li style="background-color:#EEF;">import webbrowser</li>
+  <li style="background-color:#EFF;">webbrowser.open(<font style="color:brown;">'https://www.nikkei.com/nkd/industry/stocklist/?n_m_code=146'</font>)  #システム・ソフトウェア</li>
+  <li style="background-color:#EEF;"></li>
+  <li style="background-color:#EFF;">import webbrowser</li>
+  <li style="background-color:#EEF;">webbrowser.open(<font style="color:brown;">'https://www.nikkei.com/nkd/industry/stocklist/?n_m_code=142'</font>)  #通信サービス</li>
+  </ol></code>
+<br>
+<br>
+<br>
+上にあるimport webbrowserというサイトを貼るcodeをprintの中に組み込みたかったが完成まで仕上げることができなかったので<br>
+もっと知識をつけてリベンジしたいと思った。
+</div>
