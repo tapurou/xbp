@@ -73,7 +73,7 @@ elif name :
       print("↓")
       print('F')
 name = int(input('3シロクマ（ホッキョクグマ）の肌の色は何色？1,白色 2,肌色 3,黒色'))
-if name == 2:s        
+if name == 2:        
       print("|")
       print("|")
       print("↓")
