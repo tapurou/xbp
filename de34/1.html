@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>たぷろう</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+</head>  <link rel="stylesheet" href="./css/style.css">
+<body>
+    <div>
+    <h1><strong>IoTに関して</strong></h1><br>
+    <br>
+    <br>
+    <h2><strong>1.IoTとは何か</strong></h2><br>
+    IoT(Internet of Things)は、インターネットに接続された様々な物理的なデバイスや機器のネットワークです。<br>
+    IoTデバイスは、センサーやアクチュエーターを搭載し、インターネットを通じて相互に通信し、データを収集、分析、共有することができます。<br>
+    IoTは、産業、交通、農業、医療、家庭など、さまざまな分野で利用されています。<br>
+    例えば、スマートホームデバイスは、家電製品を制御するために使用され、スマートシティプロジェクトでは、交通やエネルギーの効率的な管理を目的として利用されています。<br>
+    IoTは、デバイスの相互接続性とリアルタイム性を活用し、よりスマートで効率的なシステムを構築することができます。<br>
+    ただし、セキュリティ上の課題やプライバシーの問題なども存在するため、IoTシステムの設計や運用には注意が必要です。<br>
+    <br>
+    <br>
+    <h2><strong>2.IoTで何ができそうか？</strong></h2><br>
+    グループした内容〈ポストイット〉<br>
+    <br>
+    <img src="./picture34/p1.jpg"width="500"><br>
+    <img src="./picture34/p2.jpg"width="30%"> <img src="./picture34/p3.jpg"width="30%"> <img src="./picture34/p4.jpg"width="30%"><br>
+    <br>
+    <br>
+    <h2><strong>3.IoTで何ができそうか？</strong></h2><br>
+    アイデアスケッチ<br>
+    <img src="./picture34/IoTアイデアスケッチ.jpg"width="500"><br>
+    <br>
+    WiFiの番号とパスワードを手作業で入力することにだるさを感じたことがあったため、<br>
+    QRコードに変換してしまえば手間が減るのではないかと考えました。<br>
+    <br>
+    <br>
+    <h2>4.マイコンボード〈Arduino〉の体験</h2><br>
+    コード<br>
+    void setup() {<br>
+        // put your setup code here, to run once:<br>
+        pinMode(13,OUTPUT);<br>
+      }<br>
+      <br>
+      void loop() {<br>
+        // put your main code here, to run repeatedly:<br>
+        for(int i=0; i < 10; i++){<br>
+          digitalWrite(13,HIGH);<br>
+          delay(300);<br>
+          digitalWrite(13,LOW)<br>
+          delay(300);<br>
+        }<br>
+        <br>
+        for(int i=0; i < 3; i++){<br>
+          digitalWrite(13,HIGH);<br>
+          delay(2000);<br>
+          digitalWrite(13,LOW);<br>
+          delay(2000);<br>
+        }<br>
+        <br>
+      }<br>
+      <br>
+      <img src="./picture34/マイコンボード.jpg"width="500"><br>
+      <br>
+      プログラムは0.3秒ごとの点滅を10回繰り返し、その後2秒ごとの点滅を3回繰り返す、というプログラムで、<br>
+      最後まで行くとまた0.3秒の繰り返しに戻ります。
+      <br>
+    </div>
+
+</body>
+</html>
